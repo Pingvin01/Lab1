@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+</head>
+<body style="background: rgb(212, 153, 186);">
+    <article>
+        <h1>Article with some text</h1>
+        <p>SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT
+            SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT
+            SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT
+            SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT
+            SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT
+            SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT
+            SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT
+            SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT
+            SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT.</p>
+    </article>
+    <aside style="width: 500px">
+        <h2>Aside with some text</h2>
+        <p> SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT
+            SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT.</p>
+    </aside>
+    <audio controls>
+        <source src="Pchew.mp3" type="audio/mp3">
+        This browser does not support this audio files.
+    </audio>
+   
+    
+    <details>
+        <summary>Copyright 2010-2019.</summary>
+        <ul>
+            <li>Name <bdi>Dude</bdi></li>
+            <li>Name <bdi>John Doe</bdi></li>
+            <li>Name <bdi>إيان</bdi></li>
+        </ul>
+    </details> 
+    <figure>
+        <img src="KNU.jpg" alt="Our lovely place(no)">
+        <figcaption><mark>KNU</mark></figcaption>
+    </figure>
+    <canvas id="canv"></canvas> 
+    <p> <mark>This</mark> word <mark>was not highlighted.</mark></p>
+    <meter value="5" min="1" max="100">first</meter><br>
+    <meter value="15" min="1" max="100">second</meter><br>
+    <meter value="65" min="1" max="100">third</meter><br>
+    <meter value="95" min="1" max="100">fourth</meter>
+    <form oninput="x.value=parseInt(b.value)+parseInt(b.value)">
+        2*<input type="number" id="b" value="50">=<output name="x" for="b"></output>
+    </form>
+    <progress value="90" max="100"></progress>
+    <p><a href="index2.html"><b>Next page</b></a> </p>
+    
+    
+    <script>
+        var c = document.getElementById("canv");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "#ABCDEF";
+        ctx.fillRect(66, 66, 66, 66);
+    </script>
+</body>
+</html>
